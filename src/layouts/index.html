@@ -1,0 +1,49 @@
+<%#---
+layout: base
+---#%>
+<body class="lg:m-8 md:m-4 m-2">
+    <div class="lg:p-8 md:p-4 p-2">
+        <% item.presentation.forEach(line => { %>
+            <p class="lg:text-5xl text-4xl"><%= line %></p>
+        <% }); %>
+    </div>
+
+    <div class="grid">
+        <% Object.values(site.articles).filter(article => article.layout).forEach(article => { %>
+            <<%= article.fileContent ? "a href=" + site.env.url + article.filePath : "div" %> class="lg:p-8 md:p-4 p-2 pt-8 grayscale hover:grayscale-0 duration-700 flex justify-center flex-col">
+                <div class="inline-grid relative shadow-2xl">
+                    <img src="<%= site.env.url + "images/" + article.thumbnail %>" alt="<%= article.alt %>" class="max-w-full h-auto" width="100%" height="100%">
+
+                    <% if (article.soldOut && article.price) { %>
+                        <p class="absolute text-5xl font-bold p-2 text-red-600 uppercase"><%= site.env.soldOut %></p>
+                    <% } %>
+                </div>
+
+                <div class="flex justify-between mt-2 text-2xl font-semibold">
+                    <p>— <%= article.title %></p>
+
+                    <% if (article.price) { %>
+                        <p><%= article.price %> €</p>
+                    <% } %>
+                </div>
+            </<%= article.fileContent ? "a" : "div" %>>
+        <% }); %>
+    </div>
+</body>
+
+<script type="module">
+    import FlexMasonry from "<%= site.env.url %>libraries/flexmasonry/flexmasonry.js";
+
+    FlexMasonry.init('.grid', {
+        responsive: true,
+        breakpointCols: {
+            'min-width: 1024px': 3,
+            'min-width: 768px': 2,
+            'min-width: 640px': 1,
+        }
+    });
+
+    setInterval(() => {
+        FlexMasonry.refreshAll();
+    }, 1);
+</script>

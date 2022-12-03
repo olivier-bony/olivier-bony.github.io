@@ -1,0 +1,63 @@
+<%#---
+layout: base
+---#%>
+<body class="lg:m-8 md:m-4 m-2">
+    <div class="lg:p-8 md:p-4 p-2">
+        <a href="/" class="lg:text-5xl text-4xl">←<%= site.env.turnBack %></a>
+    </div>
+
+    <div class="grid">
+        <div class="lg:p-8 md:p-4 p-2">
+            <div class="inline-grid relative shadow-2xl p-6 text-justify space-y-5 font-semibold">
+                <div class="flex justify-between mt-2 text-3xl">
+                    <p>— <%= item.title %></p>
+
+                    <% if (item.price) { %>
+                        <p><%= item.price %> €</p>
+                    <% } %>
+                </div>
+
+                <article class="lg:text-xl md:text-lg text-base font-normal prose-neutral">
+                    <%- fileContent %> 
+                </article>
+
+                <% if (item.price) { %>
+                    <div class="flex justify-end">
+                        <div class="flex whitespace-nowrap justify-center uppercase">
+                            <% if (item.soldOut) { %>
+                                <p class="absolute text-5xl text-red-600 rotate-[350deg]"><%= site.env.soldOut %></p>
+                            <% } %>
+        
+                            <a href="<%= item.soldOut ? "#" : "mailto:" + site.env.email + "?subject=" + site.env.subject.replace(/{{(.*?)}}/g, (_, key) => item[key]) + "&body=" + site.env.body.replace(/{{(.*?)}}/g, (_, key) => item[key]) %>" class="text-white bg-black p-3 text-xl"><%= site.env.offer %></a>
+                        </div>
+                    </div>
+                <% } %>
+            </div>
+        </div>
+
+        <% Object.values(item.detailedImages).forEach(detailedImage => { %>
+            <div class="lg:p-8 md:p-4 p-2 flex justify-center">
+                <div class="inline-grid relative shadow-2xl overflow-hidden">
+                    <img src="<%= site.env.url + "images/" + Object.keys(detailedImage)[0] %>" alt="<%= Object.values(detailedImage)[0] %>" class="max-w-full h-auto hover:scale-150 duration-1000" width="100%" height="100%">
+                </div>
+            </div>
+        <% }); %>
+    </div>
+</body>
+
+<script type="module">
+    import FlexMasonry from "<%= site.env.url %>libraries/flexmasonry/flexmasonry.js";
+
+    FlexMasonry.init('.grid', {
+        responsive: true,
+        breakpointCols: {
+            'min-width: 1224px': 2,
+            'min-width: 768px': 2,
+            'min-width: 640px': 1,
+        }
+    });
+
+    setInterval(() => {
+        FlexMasonry.refreshAll();
+    }, 1);
+</script>
