@@ -1,7 +1,7 @@
 ---
 layout: article
 
-descriptionPage: Plongez dans l'Histoire de l'Atelier 14, où Olivier exprime sa passion pour l'art et l'innovation. Découvrez un sanctuaire créatif où chaque objet et matériau prend vie sous ses mains inspirées. L'Atelier 14 est le berceau de pièces uniques, fruits d'un dialogue intime entre l'artiste et la matière, touchant l'âme de ceux qui les admirent.
+descriptionPage: Plongez dans l'Histoire de l'Atelier 14, où Olivier exprime sa passion pour l'art et l'innovation. Découvrez un sanctuaire créatif où chaque objet et matériau prennent vie sous ses mains inspirées. L'Atelier 14 est le berceau de pièces uniques, fruits d'un dialogue intime entre l'artiste et la matière, touchant l'âme de ceux qui les admirent.
 titlePage: Atelier 14 — Histoire
 
 title: Histoire

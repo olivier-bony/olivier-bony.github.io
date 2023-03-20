@@ -15,7 +15,7 @@ soldOut: false
 
 detailedImages:
     - Radia/Radia.webp: La lampe Radia allumée et posée sur un bureau, elle fait face au mur
-    - Radia/Radia1.webp: Vu rapproché de la lampe Radia, on voit l'interupteur ainsi que la marque Thermor et le logo de celui-ci
+    - Radia/Radia1.webp: Vu rapproché de la lampe Radia, on voit l'interrupteur ainsi que la marque et le logo Thermor
     - Radia/Radia2.webp: La lampe Radia allumée et posée sur un bureau, en position haute
     - Radia/Radia3.webp: La lampe Radia éteinte et posée sur un bureau
     - Radia/Radia4.webp: La lampe Radia éteinte et posée sur un bureau vu de face

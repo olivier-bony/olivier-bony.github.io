@@ -15,7 +15,7 @@ soldOut: false
 
 detailedImages:
     - Azur/Azur.webp: La sculpture Azur posée sur un bureau
-    - Azur/Azur1.webp: Un oeil de la sculpture Azur
+    - Azur/Azur1.webp: Un œil de la sculpture Azur
     - Azur/Azur2.webp: La sculpture Azur posée sur un bureau pris à 45°
     - Azur/Azur3.webp: Bouches de la sculpture Azur
     - Azur/Azur4.webp: Crane de la sculpture Azur

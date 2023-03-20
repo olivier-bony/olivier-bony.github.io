@@ -17,7 +17,7 @@ detailedImages:
     - Cocta/Cocta.webp: La sculpture Cocta posée sur un bureau
     - Cocta/Cocta1.webp: Dessus de la sculpture Cocta
     - Cocta/Cocta2.webp: Moitié de la sculpture Cocta
-    - Cocta/Cocta3.webp: La sculpture Cocta, vu rapproché
+    - Cocta/Cocta3.webp: La sculpture Cocta, vue rapprochée
     - Cocta/Cocta4.webp: La sculpture Cocta posée sur un bureau à 45°
     - Cocta/Cocta5.webp: La sculpture Cocta posée sur un bureau pris légèrement de coté
 ---
