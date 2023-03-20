@@ -9,7 +9,7 @@ title: Sculpture Azur
 thumbnail: Azur/Azur.webp
 alt: La sculpture Azur posée sur un bureau
 
-price: 80
+price: 180
 
 soldOut: false
 

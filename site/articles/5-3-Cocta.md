@@ -9,7 +9,7 @@ title: Sculpture Cocta
 thumbnail: Cocta/Cocta.webp
 alt: La sculpture Cocta posée sur un bureau
 
-price: 80
+price: 160
 
 soldOut: false
 
