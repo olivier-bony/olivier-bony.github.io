@@ -1,8 +1,9 @@
 ---
 layout: article
 
-descriptionPage: Découvrez l'étagère Dock, alliance raffinée de délicatesse et d'ingéniosité, avec ses rainures en bois et ses poignées en céramique blanche. Suspendue fièrement par des crochets en métal, Dock allie esthétique et praticité pour créer un espace harmonieux où vos précieux trésors trouveront leur place.
+descriptionPage: "Étagère Dock: alliance raffinée, rainures bois & poignées céramique blanche. Suspendue par crochets métal, esthétique & praticité pour trésors."
 titlePage: Atelier 14 — Étagère Dock
+keywords: Atelier 14, étagère Dock, planche bois, rainures, poignées céramique blanche, crochets métal, délicate, ingénieuse, esthétisme, praticité, harmonieux
 
 title: Étagère Dock
 

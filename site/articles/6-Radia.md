@@ -1,8 +1,9 @@
 ---
 layout: article
 
-descriptionPage: Découvrez la lampe Radia, une transformation ingénieuse d'un chauffage Thermor en une lumière au charme industriel. Deux douilles astucieusement intégrées offrent un éclairage modulable pour s'adapter à vos envies. Radia symbolise l'union harmonieuse entre passé et présent, apportant une ambiance chaleureuse et un éclat lumineux à votre espace.
+descriptionPage: "Lampe Radia: chauffage Thermor transformé, charme industriel. Douilles intégrées pour éclairage modulable. Union passé & présent, ambiance chaleureuse."
 titlePage: Atelier 14 — Lampe Radia
+keywords: Atelier 14, lampe Radia, chauffage Thermor, charme industriel, douilles intégrées, éclairage modulable, union passé-présent, ambiance chaleureuse
 
 title: Lampe Radia
 

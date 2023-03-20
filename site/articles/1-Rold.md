@@ -1,8 +1,9 @@
 ---
 layout: article
 
-descriptionPage: Découvrez la lampe Rold, une création artistique inspirée de la Jieldé, au charme unique et intemporel. Son vert usine nostalgique et son effet d'usure captivant apportent une touche d'authenticité à votre intérieur. Laissez-vous séduire par sa lumière chaleureuse et poétique.
+descriptionPage: "Lampe Rold: création inspirée de la Jieldé au charme intemporel. Vert usine nostalgique & effet d'usure pour authenticité et lumière chaleureuse."
 titlePage: Atelier 14 — Lampe Rold
+keywords: Atelier 14, lampe Rold, Jieldé, création artistique, vert usine, effet d'usure, lumière chaleureuse, authenticité, élégance intemporelle
 
 title: Lampe Rold
 

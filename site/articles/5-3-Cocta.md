@@ -1,8 +1,9 @@
 ---
 layout: article
 
-descriptionPage: Découvrez la Sculpture Cocta, une création poétique et captivante, représentant un visage surgissant du bois. Ses expressions évoquent des émotions profondes et une mélancolie subtile. Les stries rappelant des racines ajoutent une dimension unique, reflétant la complexité de l'âme humaine et la puissance de la nature.
+descriptionPage: "Sculpture Cocta: création poétique, visage bois évoquant émotions profondes & mélancolie. Stries racines reflétant âme humaine & puissance nature."
 titlePage: Atelier 14 — Sculpture Cocta
+keywords: Atelier 14, sculpture Cocta, création poétique, visage bois, émotions profondes, mélancolie, stries racines, âme humaine, puissance nature
 
 title: Sculpture Cocta
 

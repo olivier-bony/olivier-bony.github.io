@@ -1,8 +1,9 @@
 ---
 layout: article
 
-descriptionPage: Explorez la lampe Luxo, une fusion poétique de lumière et d'art, issue de la lignée des lampes d'atelier HCF. Son socle en aluminium étau lui confère une élégance unique. Luxo incarne l'équilibre parfait entre fonctionnalité et beauté, illuminant et inspirant la réalisation de vos œuvres créatives.
+descriptionPage: "Lampe Luxo: fusion poétique de lumière & art, issue des lampes HCF. Socle aluminium étau pour élégance, équilibre fonctionnalité & beauté."
 titlePage: Atelier 14 — Lampe Luxo
+keywords: Atelier 14, lampe Luxo, lampes HCF, socle aluminium étau, fusion poétique, lumière, art, équilibre, fonctionnalité, beauté
 
 title: Lampe Luxo
 

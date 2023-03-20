@@ -1,8 +1,9 @@
 ---
 layout: article
 
-descriptionPage: Découvrez la Sculpture Azur, une création envoûtante sculptée dans le bois noble, aux traits expressifs et mystérieux. Son bleu nuit énigmatique révèle l'art du taillage, captivant le regard. Azur illustre l'union parfaite entre matière et couleur, évoquant l'émotion et la beauté éphémère dans chaque détail.
+descriptionPage: "Sculpture Azur: création envoûtante en bois noble, traits expressifs & mystérieux. Bleu nuit énigmatique, union parfaite matière & couleur."
 titlePage: Atelier 14 - Sculpture Azur
+keywords: Atelier 14, Sculpture Azur, bois noble, traits expressifs, mystérieux, bleu nuit, énigmatique, union matière, couleur, émotion, beauté éphémère
 
 title: Sculpture Azur
 

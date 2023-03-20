@@ -1,8 +1,9 @@
 ---
 layout: article
 
-descriptionPage: Découvrez la lampe Stov, une création élégante et astucieuse inspirée des lampes d'architecte LEDU, revêtue d'un métal brillant. Avec son étau ingénieux et sa boule rotative, Stov s'ajuste en toute liberté pour illuminer votre espace. Cette pièce incarne l'équilibre idéal entre fonctionnalité et esthétique.
+descriptionPage: "Lampe Stov: élégante, inspirée lampes LEDU, métal brillant. Étau ingénieux, boule rotative, ajustement libre. Équilibre fonctionnalité & esthétique."
 titlePage: Atelier 14 — Lampe Stov
+keywords: lampe Stov, lampes LEDU, métal brillant, étau, boule rotative, ajustement libre, fonctionnalité, esthétique, Atelier 14, élégante, ingénieuse, socle, fusion
 
 title: Lampe Stov
 

@@ -1,8 +1,9 @@
 ---
 layout: article
 
-descriptionPage: Découvrez la lampe Yeld, une interprétation enchanteresse de la Jièldé, arborant un jaune ensoleillé pour égayer votre espace. Son socle authentique, un disque de frein recyclé, et les traces d'usure révélant le métal brut ajoutent charme et caractère. Yeld incarne l'harmonie entre passé et présent, fusionnant le style industriel et artistique.
+descriptionPage: "Lampe Yeld: interprétation enchanteresse Jièldé, jaune ensoleillé. Socle disque de frein recyclé, traces d'usure pour charme. Harmonie passé & présent."
 titlePage: Atelier 14 — Lampe Yeld
+keywords: lampe Yeld, Jièldé, jaune ensoleillé, socle disque de frein, recyclé, traces d'usure, charme, harmonie, passé, présent, Atelier 14, métal brut, peinture, industriel, artistique
 
 title: Lampe Yeld
 

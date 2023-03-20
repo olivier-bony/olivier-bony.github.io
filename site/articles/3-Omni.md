@@ -1,8 +1,9 @@
 ---
 layout: article
 
-descriptionPage: Découvrez la lampe Omni, héritière de l'ingéniosité de Charlotte Perriand, alliant esthétique vintage et solaire. Adaptée pour les ampoules classiques, avec un déflecteur en tôle et une robe crème élégante, Omni offre une lumière poétique qui fait revivre le passé pour éclairer votre avenir.
+descriptionPage: "Lampe Omni: ingéniosité Charlotte Perriand, esthétique vintage & solaire. Adaptée ampoules classiques, déflecteur tôle, robe crème, lumière poétique."
 titlePage: Atelier 14 - Lampe Omni
+keywords: "Atelier 14, Lampe Omni, Charlotte Perriand, esthétique vintage, solaire, ampoules classiques, déflecteur tôle, robe crème, lumière poétique"
 
 title: Lampe Omni
 

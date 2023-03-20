@@ -1,8 +1,9 @@
 ---
 layout: article
 
-descriptionPage: Explorez la lampe Fog, héritière des feux de queue de trains SNCF, transformée en un éclairage industriel et nomade. Avec son verre vert-blanc, sa connexion directe au secteur et son design robuste, Fog illumine chaque recoin de votre maison. Sa douille de secours témoigne d'une histoire riche, ajoutant une touche unique à cette création.
+descriptionPage: "Lampe Fog: feux de queue trains SNCF transformés, éclairage industriel nomade. Verre vert-blanc, connexion secteur, design robuste, douille de secours."
 titlePage: Atelier 14 — Lampe Fog
+keywords: Atelier 14, lampe Fog, feux de queue trains SNCF, éclairage industriel, nomade, verre vert-blanc, connexion secteur, design robuste, douille secours
 
 title: Lampe Fog
 

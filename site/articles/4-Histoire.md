@@ -1,8 +1,9 @@
 ---
 layout: article
 
-descriptionPage: Plongez dans l'Histoire de l'Atelier 14, où Olivier exprime sa passion pour l'art et l'innovation. Découvrez un sanctuaire créatif où chaque objet et matériau prennent vie sous ses mains inspirées. L'Atelier 14 est le berceau de pièces uniques, fruits d'un dialogue intime entre l'artiste et la matière, touchant l'âme de ceux qui les admirent.
+descriptionPage: "Atelier 14: Olivier passionné d'art & innovation. Sanctuaire créatif où objets & matériaux prennent vie. Pièces uniques touchant l'âme des admirateurs."
 titlePage: Atelier 14 — Histoire
+keywords: Atelier 14, Olivier, passion, art, innovation, sanctuaire créatif, objets, matériaux, pièces uniques, émotion, dialogue intime, artiste, matière
 
 title: Histoire
 
