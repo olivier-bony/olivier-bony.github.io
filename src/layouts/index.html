@@ -2,6 +2,11 @@
 layout: base
 ---#%>
 <body class="lg:m-8 md:m-4 m-2">
+
+    <div id="ball"></div>
+    <div id="cursor-text"></div>
+
+
     <div class="lg:p-8 md:p-4 p-2">
         <% item.presentation.forEach(line => { %>
             <% if (item.presentation.indexOf(line) === 0) { %>
@@ -14,12 +19,16 @@ layout: base
 
     <div class="grid">
         <% Object.values(site.articles).filter(article => article.layout).forEach(article => { %>
-            <<%= article.fileContent ? "a href=" + site.env.url + article.filePath : "div" %> class="lg:p-8 md:p-4 p-2 pt-8 grayscale hover:grayscale-0 duration-700 flex justify-center flex-col">
-                <div class="inline-grid relative shadow-2xl">
+            <<%= article.fileContent ? "a href=" + site.env.url + article.filePath : "div" %> class="lg:p-8 md:p-4 p-2 pt-8 grayscale hover:grayscale-0 duration-700 flex justify-center flex-col hover:scale-105">
+            <div class="inline-grid relative shadow-2xl">
                     <img src="<%= site.env.url + "images/" + article.thumbnail %>" alt="<%= article.alt %>" class="max-w-full h-auto" width="100%" height="100%" loading="lazy">
 
                     <% if (article.soldOut && article.price) { %>
                         <p class="absolute text-5xl font-bold p-2 text-red-600 uppercase"><%= site.env.soldOut %></p>
+                    <% } %>
+
+                    <% if (article.new) { %>
+                        <p class="absolute text-5xl font-bold p-2 text-amber-400 uppercase"><%= site.env.new %></p>
                     <% } %>
                 </div>
 

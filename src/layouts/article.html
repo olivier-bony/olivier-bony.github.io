@@ -28,7 +28,7 @@ layout: base
                                 <p class="absolute text-5xl text-red-600 rotate-[350deg]"><%= site.env.soldOut %></p>
                             <% } %>
         
-                            <a href="<%= item.soldOut ? "#" : "mailto:" + site.env.email + "?subject=" + site.env.subject.replace(/{{(.*?)}}/g, (_, key) => item[key]) + "&body=" + site.env.body.replace(/{{(.*?)}}/g, (_, key) => item[key]) %>" class="text-white bg-black p-3 text-xl"><%= site.env.offer %></a>
+                            <a href="<%= item.soldOut ? "#" : "mailto:" + site.env.email + "?subject=" + site.env.subject.replace(/{{(.*?)}}/g, (_, key) => item[key]) + "&body=" + site.env.body.replace(/{{(.*?)}}/g, (_, key) => item[key]) %>" class=" hover:scale-110 duration-700 text-2xl font-extrabold p-2 text-amber-400 uppercase"><%= site.env.offer %></a>
                         </div>
                     </div>
                 <% } %>
