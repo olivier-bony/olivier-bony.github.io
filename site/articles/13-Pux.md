@@ -10,7 +10,7 @@ title: Lampe Pux
 thumbnail: Pux/Pux.webp
 alt: La lampe Pux allumée et posée sur un bureau
 
-price: XXX
+price: 190
 
 soldOut: false
 
